@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74651" started-at="2020-06-10T08:25:53 EDT" finished-at="2020-06-10T08:27:07 EDT">
+    <groups>
+    </groups>
+    <test name="App Testing" duration-ms="7" started-at="2020-06-10T08:25:53 EDT" finished-at="2020-06-10T08:25:53 EDT">
+    </test> <!-- App Testing -->
+    <test name="Validating User Login" duration-ms="74651" started-at="2020-06-10T08:25:53 EDT" finished-at="2020-06-10T08:27:07 EDT">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@6b927fb]" name="basePageNavigation" duration-ms="74613" started-at="2020-06-10T08:25:53 EDT" data-provider="getData" finished-at="2020-06-10T08:27:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[littleredshoes65@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwtest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validating User Login -->
+  </suite> <!-- Suite -->
+</testng-results>
